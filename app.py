@@ -25,7 +25,7 @@ class SumberDaya(Resource):
         identitas["nama"] = nama
         identitas["umur"] = umur
 
-        respon = {"pesan": "data diupload"}
+        respon = {"pesan": "sukses anjer"}
         return respon
 
 api.add_resource(SumberDaya, "/buatapi", methods=["GET", "POST"])
